@@ -1,0 +1,73 @@
+# ###################################################################
+# # Default Android .gitignore file from https://github.com/github/gitignore
+# ###################################################################
+
+# Created by https://www.toptal.com/developers/gitignore/api/android,kotlin,gradle
+# Edit at https://www.toptal.com/developers/gitignore?templates=android,kotlin,gradle
+
+### Build files & Artifacts ###
+/build
+/.gradle
+/app/build
+*.apk
+*.aab
+*.ap_
+*.a.out
+*.so
+*.dex
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Local configuration files ###
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+
+### Keystore files ###
+# These are sensitive and should never be committed
+*.jks
+*.keystore
+
+### Log & Profile files ###
+*.log
+/captures/
+*.hprof
+
+### Kotlin compiled files ###
+*.class
+.navigation/
+.idea/caches/build_file_checksums.ser
+
+### Generated Code Directories ###
+# Hilt generated files
+/app/build/generated/hilt/
+
+# Room schema directory
+# The JSON files inside should be committed, but the folder is often ignored.
+# Git will track the files inside once they are added.
+/schemas/
+
+### Gradle ###
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored by the *.jar rule)
+!gradle-wrapper.jar
+
+# Avoid ignoring Gradle wrapper properties file
+!gradle/wrapper/gradle-wrapper.properties
+
+# Cache files for Kotlin DSL
+.gradle-kts
+
+### AI-specific files (optional) ###
+# These files often contain local settings or temporary context
+.aiexclude
+
